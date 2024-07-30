@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>menu item</title>
+    <style>
+      /* Bootstrap ICON CDN Link */
+      @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+      body {
+        /* body{
+            background-image: url(assets/developer.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        } */
+      }
+      .main-division {
+        width: 370px;
+        border: 1px solid gray;
+        border-radius: 12px;
+        margin: 20px auto;
+      }
+
+      #item-photo img {
+        width: 350px;
+        height: 250px;
+        border-radius: 20px;
+        padding: 8px;
+      }
+
+      #best-seller {
+        color: rgb(2, 81, 81);
+        font-weight: bolder;
+        background-color: rgb(216, 239, 242);
+        padding: 3px 5px 3px 5px;
+        border-radius: 8px;
+        border: 1px solid rgb(42, 137, 4);
+        position: absolute;
+        top: 40px;
+        left: 690px;
+      }
+
+      #best-sellertwo {
+        color: rgb(2, 81, 81);
+        font-weight: bolder;
+        background-color: rgb(216, 239, 242);
+        padding: 3px 5px 3px 5px;
+        border-radius: 8px;
+        border: 1px solid rgb(42, 137, 4);
+        position: absolute;
+        right: 690px;
+        top: 250px;
+      }
+
+      #item-desc {
+        padding: 10px;
+      }
+      #item-desc,
+      h2 {
+        margin: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+      }
+      #item-desc,
+      p {
+        margin: 5px;
+        margin-bottom: 5px;
+      }
+      #card-buttons {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 15px;
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+    </style>
+  </head>
+
+  <body>
+<div class="main-division">
+      <section id="item-photo">
+        <img src="burger-paneer.jpg" alt="" />
+        <button type="button" id="best-seller">Best Seller</button>
+        <button type="button" id="best-sellertwo">must try</button>
+      </section>
+      <section id=" item-desc">
+        <h2>Burger-panner cheese</h2>
+        <p>this is main and special cheeze burger.yummy,most recommended</p>
+      </section>
+
+      <section id="card-buttons">
+        <i class="bi bi-heart"></i>
+        <i class="bi bi-chat-left-text-fill"></i>
+        <i class="bi bi-heart"></i>    
+        <i class="bi bi-bookmarks-fill"></i>
+      </section>
+    </div>
+  </body>
+</html>
